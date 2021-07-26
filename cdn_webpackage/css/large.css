@@ -1,0 +1,885 @@
+#mobilmenu{
+	display: none;
+}
+
+
+ /* Down Arrow */
+.arrow-down{
+  background: url(../images/white-arrow.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:25px;
+  width:50px;
+  position:fixed;
+  left:50%;
+  bottom:2%; 
+  opacity: 0.7;
+  display: initial;
+  z-index: 9000;
+
+ /* Arrow Animation */ 
+  -webkit-animation: bounce 2s infinite ease-in-out;
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+  80% { -webkit-transform: translateY(-10px); }
+}
+/* INDEX PAGE */
+/* cdn-intro graphic*/
+
+/*********
+
+
+
+ Customized INDEX PAGE 
+
+
+
+
+ *********/
+
+#home-head-banner{
+  min-height:100vh;
+}
+
+#home-head-banner .zoom_banner{
+  min-height:100vh;
+}
+
+#home-head-banner #home .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+  border:10px solid black;
+  color:white;
+ }
+
+ #home-head-banner #home .shade-box{
+  left: 150px;
+  bottom: 100px;
+  position: absolute;
+
+ }
+
+#home-head-banner #home .shade-box-container {
+  width: 300px;
+}
+
+#home .shade-box-container {
+  width: 200px;
+}
+#home .shade-box-container h1{
+    font-size: 1.7em;
+    position: relative;
+    top: 60px;
+
+}
+ /* cdn-intro graphic*/
+
+.cdn-intro {
+  padding-right: 0;
+  padding-top: 200px;
+}
+#cdn-text-background{
+  padding-right: 0;
+}
+#cdn-text-background h1{
+  margin-top: 0;
+  font-size: 5.5em;
+}
+
+#cdn-bold-text{
+  line-height: 19px;
+  width: 
+}
+
+/* cdn-intro text */
+#cdn-intro-text{
+  width: auto;
+  float: left;
+  text-align: left;
+  padding-left: 0;
+}
+
+ /* Store Ad */
+.store-ad .container{
+  width:400px;
+  margin-right:100px; 
+}
+
+/* MAILING LIST */
+.mail-list .form-control{
+  width: 450px;
+}
+.mail-list p{
+  display: initial;
+}
+
+
+/*********
+
+
+
+ Customized ABOUT PAGE 
+
+
+
+
+ *********/
+ #about-head-banner{
+  background:url(../images/fullheight_banner.jpg)no-repeat left center;
+  min-height:100vh;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+ #about .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+ }
+
+ #about .shade-box{
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  float: right;
+ }
+
+ #about .shade-box-container {
+  width: 400px;
+  top: 50px;
+}
+#about .shade-box-container h1{
+
+ font-size: 1.7em;
+}
+/* INTRO TEXT */
+
+.about-us-intro{
+  padding-top: 190px;
+
+}
+
+/* INTRO TEXT CDN GRAPHIC */
+.about-us-intro h1{
+  font-size: 19em;
+  position: absolute;
+  padding-left:10px;
+  bottom: -80px;
+
+}
+.cdncontent {
+}
+
+/* ABOUT US OFFERINGS */
+
+.ourofferings{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.ourofferings ul{
+  padding-right: 20px;
+  padding-bottom: 25px;
+  width: 250px;
+  margin: 0 auto;
+}
+.ourofferings h4{
+  padding-bottom: 20px;
+ }
+ .ourofferings img{
+ 	padding-bottom: 10px;
+ }
+
+ /* OUR APPROACH BANNER */
+ .our-approach{
+  height: 400px;
+ }
+ .our-approach h4{
+  position: absolute;
+  top:300px;
+  width: 400px;
+  font-size: 1.7em;
+ }
+
+/* OUR APPROACH CONTENT */
+.our-approach-content{
+    padding-top: 60px;
+  padding-bottom: 60px;
+}
+/**********
+
+
+
+Customized TEAM PAGE
+
+
+
+
+ **********/
+
+ #team-head-banner{
+  background:url(../images/team-banner.jpg)no-repeat center center;
+  min-height: 100vh;
+  margin-bottom: 0vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+#team .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+  border:10px solid black;
+  color:white;
+ }
+
+ #team .shade-box{
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  float: right;
+ }
+
+#team .shade-box-container {
+  width: 340px;
+  position: relative;;
+  top: 50px;
+  text-align: right;
+  float: right;
+}
+#team h1{
+  position: relative;
+  right: 25px;
+  font-size: 1.7em
+}
+/* TEAM BIO */
+
+
+.team{
+  padding-top: 190px;
+  padding-left: 0;
+  text-align: left;
+}
+.team ul{
+  padding-left: 0;
+}
+.head-heading ul{
+  width:360px;
+}
+.head-heading{
+  padding-bottom: 50px;
+}
+.head-heading h1{
+  width:400px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.head-heading p{
+  width: 500px;
+  padding-left: 0;
+}
+.team p{
+    padding-left: 0;
+}
+
+/*********
+
+
+
+ Customized INDIVIDUAL BIO PAGE 
+
+
+
+
+ *********/
+
+.harry-bio{
+  background: #333333;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+.harry-bio #bio_title{
+  padding-left: 15px;
+  position: absolute;
+  top: 200px;
+  left: 430px;
+}
+.harry-bio #bio_title h3{
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+.harry-bio #bio_title h4{
+  margin-top: 0;
+    font-size: 2em;
+
+}
+.harry-bio img{
+  width: 400px;
+  height: auto;
+}
+
+
+
+/*********
+
+
+
+ Customized WORK PAGE 
+
+
+
+
+ *********/
+/* SLIDER */
+.slider {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+
+}
+.slide{
+  position: absolute;
+   top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  display: none;
+}
+ /* GAIA SLIDE */
+ #slide-gaia{
+  min-height:100vh;
+  background:url(../images/home_banner.jpg)no-repeat center center;
+  margin-bottom: 0vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+ #slide-gaia ul{
+  top: 150px;
+ }
+
+ #slide-gaia h1{
+    width: 350px;
+}
+
+/* SICKKIDS */
+
+#slide-sickkids{
+    min-height:100vh;
+}
+ #slide-sickkids ul{
+  top: 250px;
+ }
+
+ #slide-sickkids h1{
+   width: 400px;
+ }
+
+ /* bangladesh */
+#slide-bangladesh{
+    min-height:100vh;
+}
+
+#slide-bangladesh ul{
+  top: 250px;
+ }
+ #slide-bangladesh h1{
+  width: 400px;
+ }
+
+/* WORK-GALLERY */
+
+ .work-gallery li {
+  width: 33.3333333%; /* Fallback */
+  width: -webkit-calc(100% / 3);
+  width: calc(100% / 3);
+}
+.explore-op {
+  position: absolute;
+  left: 25px;
+  font-size: 1.7em;
+}
+.work-gallery li a div h3 {
+  font-size: 1.2em;
+}
+
+/*********
+
+
+
+WORK _ TOLIET  ABOUT PAGE 
+
+
+
+
+ *********/
+#sanitary-page-banner{
+  background:url(../images/work_toliet_banner1.jpg)no-repeat center center;
+  min-height:100vh;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+#sanitary-page-banner #sanitary-page  .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+  border:10px solid black;
+  color:white;
+ }
+
+ #sanitary-page-banner #sanitary-page .shade-box{
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  float: right;
+ }
+
+#sanitary-page-banner #sanitary-page  .shade-box-container {
+  width: 340px;
+  position: relative;;
+  top: 50px;
+  text-align: right;
+  float: right;
+}
+#sanitary-page-banner #sanitary-page .shade-box-container h1{
+  position: relative;
+  right: 25px;
+  font-size: 1.7em
+}
+
+
+/* CONTENT */
+.work_toliet .problem{
+  padding-top: 150px;
+}
+.work_toliet .toliet_content_one{
+  padding-bottom: 50px;
+}
+.toliet_content_two{
+ background: #83b13a;
+ color: white;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ text-align: center;
+}
+
+/* toliet _gallery 1 */
+/* PHOTO GALLERY */
+.toliet_content_photo{
+  background: url(../images/toliet_4.jpg)no-repeat center center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.toliet_content_photo1{
+  background: url(../images/toliet_3.jpg)no-repeat center center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.toliet_content_three{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.toliet_content_four {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.toliet_content_four ul{
+  padding-left: 0;
+}
+.toliet_content_five .award{
+  background: url(../images/toliet_award.jpg)no-repeat top center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*********
+
+
+
+WORK _ NOWHOUSE  ABOUT PAGE 
+
+
+
+
+ *********/
+#nowhouse-page-banner{
+  background:url(../images/nowhouse_banner.jpg)no-repeat center center;
+  min-height:100vh;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+#nowhouse-page-banner #nowhouse-page  .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+  border:10px solid black;
+  color:white;
+ }
+
+ #nowhouse-page-banner #nowhouse-page  .shade-box{
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  float: right;
+ }
+
+#nowhouse-page-banner #nowhouse-page  .shade-box-container {
+  width: 340px;
+  position: relative;;
+  top: 50px;
+  text-align: right;
+  float: right;
+}
+#nowhouse-page-banner #nowhouse-page .shade-box-container h1{
+  position: relative;
+  right: 25px;
+  font-size: 1.7em
+}
+
+
+/* CONTENT */
+.work_nowhouse .problem{
+  padding-top: 150px;
+}
+.work_nowhouse .nowhouse_content_one{
+  padding-bottom: 50px;
+}
+.nowhouse_content_two {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.nowhouse_content_two{
+ background: #83b13a;
+ color: white;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ text-align: center;
+}
+
+/* toliet _gallery 1 */
+/* PHOTO GALLERY */
+.nowhouse_content_photo{
+  background: url(../images/nowhouse_banner-5.jpg)no-repeat center center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.nowhouse_content_photo1{
+  background: url(../images/nowhouse_banner-4.jpg)no-repeat center center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.nowhouse_content_three{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.nowhouse_content_four {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nowhouse_content_four ul{
+  padding-left: 0;
+}
+.nowhouse_content_five .award{
+  background: url(../images/nowhouse_banner_6.jpg)no-repeat top center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*********
+
+
+
+WORK _ SICK  ABOUT PAGE 
+
+
+
+
+ *********/
+#sickkids-page-banner{
+  background:url(../images/sickkids_banner.jpg)no-repeat center center;
+  min-height:100vh;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sickkids-page-banner #sickkids-page  .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+  border:10px solid black;
+  color:white;
+ }
+
+ #sickkids-page-banner #sickkids-page  .shade-box{
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  float: right;
+
+ }
+
+#sickkids-page-banner #sickkids-page  .shade-box-container {
+  width: 340px;
+  position: relative;;
+  top: 50px;
+  text-align: right;
+  float: right;
+}
+#sickkids-page-banner #sickkids-page .shade-box-container h1{
+  position: relative;
+  right: 25px;
+  font-size: 1.7em
+}
+
+
+/* CONTENT */
+.work_sickkids .problem{
+  padding-top: 150px;
+}
+.work_sickkids .sickkids_content_one{
+  padding-bottom: 50px;
+}
+.sickkids_content_two {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.sickkids_content_two{
+ background: #83b13a;
+ color: white;
+ text-align: center;
+}
+
+/* toliet _gallery 1 */
+/* PHOTO GALLERY */
+.sickkids_content_photo{
+  background: url(../images/sickkids_banner3.jpg)no-repeat center center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sickkids_content_photo1{
+  background: url(../images/sickkids_banner2.jpg)no-repeat center center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sickkids_content_three{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.sickkids_content_four {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sickkids_content_four ul{
+  padding-left: 0;
+}
+
+/*********
+
+
+
+WORK _ HYDRO ABOUT PAGE 
+
+
+
+
+ *********/
+#hydro-page-banner{
+  background:url(../images/hydro_banner_lg.jpg)no-repeat center center;
+  min-height:100vh;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#hydro-page-banner #hydro-page  .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+  border:10px solid black;
+  color:white;
+ }
+
+ #hydro-page-banner #hydro-page  .shade-box{
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  float: right;
+ }
+
+#hydro-page-banner #hydro-page  .shade-box-container {
+  width: 340px;
+  position: relative;;
+  top: 50px;
+  text-align: right;
+  float: right;
+}
+#hydro-page-banner #hydro-page .shade-box-container h1{
+  position: relative;
+  right: 25px;
+  font-size: 1.7em
+}
+
+
+/* CONTENT */
+.work_hydro .problem{
+  padding-top: 150px;
+}
+.work_hydro .hydro_content_one{
+  padding-bottom: 50px;
+}
+.hydro_content_two {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.hydro_content_two{
+ background: #13997b;
+ color: white;
+ text-align: center;
+}
+
+/* toliet _gallery 1 */
+/* PHOTO GALLERY */
+.hydro_content_photo{
+  background: url(../images/hydro_banner3.jpg)no-repeat center center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.hydro_content_photo1{
+  background: url(../images/hydro_banner2.jpg)no-repeat center center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hydro_content_three{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.hydro_content_four {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.hydro_content_four ul{
+  padding-left: 0;
+}
+
+
+/**********
+
+
+
+Customized STORE PAGE
+
+
+
+
+ **********/
+
+#store-head-banner ul{
+  position: relative;
+ top: 200px;
+  text-align: right;
+  padding: 0;
+}
+#store-head-banner h1 {
+  color: white;
+  font-size: 2em;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+}
+
+#store-head-banner p {
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 1.2em;
+
+}
+
+#store-head-banner p{
+  width: 470px;
+  float: right;
+}
+
+
+
+

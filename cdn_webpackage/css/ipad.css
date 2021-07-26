@@ -1,0 +1,797 @@
+.mobile-nav{
+	display: none;
+}
+.main-nav{
+  display: initial;
+}
+.main-nav .container{
+  padding: 0;
+}
+
+.nav{
+  display: initial;
+}
+
+ /* Down Arrow */
+.arrow-down{
+  display: none;
+}
+
+/*********
+
+
+
+ Customized INDEX PAGE 
+
+
+
+
+ *********/
+ /* cdn-intro graphic*/
+#home-head-banner{
+  min-height: 600px;
+}
+#home-head-banner .zoom_banner{
+  min-height: 600px;
+}
+
+#home-head-banner #home .shade-box{ 
+  position: absolute;
+  bottom: 80px;
+  left: 30px;
+ }
+
+.cdn-intro {
+  padding-right: 25px;
+  padding-top: 180px;
+
+  padding-bottom: 100px;
+
+}
+
+#cdn-text-background{
+  padding-right: 15px;
+  padding-left: 5px;
+}
+#cdn-text-background h1{
+  text-align: right;
+  color:white;
+  font-size: 4em;
+  line-height: 66px;
+
+}
+
+/* cdn-intro text */
+#cdn-intro-text{
+  width: 350px;
+  float: right;
+}
+
+#cdn-intro-text li p{
+ padding-bottom: 10px;
+}
+ /* Store Ad */
+.store-ad .container{
+  width:400px;
+  margin-right: 100px;
+}
+
+/* MAILING LIST & CONTACT */
+.mail-list h3{
+  margin-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+/*********
+
+
+
+ Customized ABOUT PAGE 
+
+
+
+
+ *********/
+#about-head-banner{
+  background:url(../images/fullheight_banner_mobil.jpg)no-repeat left center;
+  min-height:600px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+ #about .shade-box{
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+  float: right;
+ }
+
+#about .shade-box-container {
+  width: 250px;
+  position: relative;;
+  top: 35px;
+  text-align: right;
+  float: right;
+}
+#about h1{
+  position: relative;
+  right: 30px;
+  font-size: 1.5em
+}
+/* INTRO TEXT */
+
+.about-us-intro{
+  padding-top: 160px;
+}
+
+/* INTRO TEXT CDN GRAPHIC */
+.about-us-intro h1{
+  position: absolute;
+}
+
+.cdncontent p{
+  padding-right: 30px;
+}
+
+/* ABOUT US OFFERINGS */
+
+.ourofferings{
+  padding-top: 70px;
+}
+
+.ourofferings ul{
+  padding-bottom: 25px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+
+ /* OUR APPROACH BANNER */
+ .our-approach{
+  height: 330px;
+ }
+
+ .our-approach h4{
+  position: absolute;
+  top:250px;
+ }
+
+/* OUR APPROACH CONTENT */
+.our-approach-content{
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+/**********
+
+
+
+Customized TEAM PAGE
+
+
+
+
+ **********/
+
+ #team-head-banner{
+  background:url(../images/team-banner.jpg)no-repeat center center;
+  min-height: 600px;
+  margin-bottom: 0vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+/* TEAM BIO */
+
+ #team .shade-box{
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+  float: right;
+ }
+
+
+.team{
+  text-align: left;
+  padding-top: 220px;
+}
+
+.head-heading h1{
+  width:350px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+.head-heading p{
+  width:350px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+.team p{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*********
+
+
+
+ Customized INDIVIDUAL BIO PAGE 
+
+
+
+
+ *********/
+
+.harry-bio{
+  background: #333333;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+.harry-bio #bio_title{
+  padding-left: 15px;
+  position: absolute;
+  top: 200px;
+  left: 430px;
+}
+.harry-bio #bio_title h3{
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+.harry-bio #bio_title h4{
+  margin-top: 0;
+    font-size: 2em;
+
+}
+.harry-bio img{
+  width: 400px;
+  height: auto;
+}
+
+.bio-content{
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background: url(../images/team-background.png)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.bio-content ul{
+  padding: 0;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.bio-content ul li h3{
+  padding-bottom: 20px;
+}
+
+/* BIO SOCIAL MEDIA */
+
+.bio-contact{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: black;
+  text-align: center;
+
+}
+
+/*********
+
+
+
+ Customized WORK PAGE 
+
+
+
+
+ *********/
+.slider {
+  position: relative;
+  min-height: 600px;
+  overflow: hidden;
+
+}
+.slide{
+  position: absolute;
+   top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 600px;
+  display: none;
+}
+/* GAIA SLIDE */
+ #slide-gaia{
+  min-height:600px;
+  margin-bottom: 0vh;
+}
+
+#slide-gaia ul{
+  top: 200px;
+ }
+
+ #slide-gaia h1{
+  width: 400px;
+  font-size: 2em;
+}
+
+.gaia-boy #gaia_phone img{
+  position: absolute;
+  bottom: 26px;
+  width: 300px;
+  height: auto;
+ }
+
+ .gaia-boy #gaia_logo img{
+  position: absolute;
+  bottom: 200px;
+  left: 300px;
+  width: 200px;
+  height: auto;
+ }
+ .wood_banner img{
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+ }
+
+/* SICKKIDS */
+ #slide-sickkids{
+    min-height:600px;
+  margin-bottom: 0vh;
+}
+
+ #slide-sickkids ul{
+  top: 300px;
+ }
+
+ #slide-sickkids h1{
+  width: 400px;
+  font-size: 2em;
+ }
+
+ /* bangladesh */
+ #slide-bangladesh{
+    min-height:600px;
+  margin-bottom: 0vh;
+}
+  #slide-bangladesh ul{
+  top: 300px;
+ }
+
+ #slide-bangladesh h1{
+  width: 400px;
+  font-size: 2em;
+ }
+
+/* INNOVATION LAB */
+.innovation_lab{
+  padding-top: 140px;
+}
+
+/* WORK-GALLERY */
+
+ .work-gallery li {
+  width: 33.3333333%; /* Fallback */
+  width: -webkit-calc(100% / 3);
+  width: calc(100% / 3);
+}
+
+.work-gallery li a div h3 {
+  font-size: 1.2em;
+}
+.work-join {
+  height: 200px;
+}
+
+/**********
+
+
+
+Customized STORE PAGE
+
+
+
+
+ **********/
+
+#store-head-banner ul{
+  position: relative;
+ top: 400px;
+  text-align: right;
+  padding: 0;
+}
+#store-head-banner h1 {
+  color: white;
+  font-size: 3em;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+}
+
+#store-head-banner p {
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 1.8em;
+
+}
+
+#store-head-banner p{
+  width: 470px;
+  float: right;
+}
+
+/*********
+
+
+
+WORK _ TOLIET  ABOUT PAGE 
+
+
+
+
+ *********/
+#sanitary-page-banner{
+  background:url(../images/work_toliet_banner1.jpg)no-repeat center center;
+  min-height:600px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+#sanitary-page-banner #sanitary-page .shade-box{
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+  float: right;
+ }
+
+
+/* CONTENT */
+.work_toliet .problem{
+  padding-top: 150px;
+}
+.work_toliet .toliet_content_one{
+  padding-bottom: 50px;
+}
+.toliet_content_two {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.toliet_content_two{
+ background: #83b13a;
+ color: white;
+}
+
+/* toliet _gallery 1 */
+/* PHOTO GALLERY */
+.toliet_content_photo{
+  background: url(../images/toliet_4.jpg)no-repeat center center;
+  min-height:200px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.toliet_content_photo1{
+  background: url(../images/toliet_3.jpg)no-repeat center center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.toliet_content_three{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.toliet_content_four {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.toliet_content_four ul{
+  padding-left: 0;
+}
+.toliet_content_five .award{
+  background: url(../images/toliet_award.jpg)no-repeat top center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*********
+
+
+
+NOWHOUSE _ ABOUT PAGE 
+
+
+
+
+ *********/
+#nowhouse-page-banner{
+  background:url(../images/nowhouse_banner.jpg)no-repeat center center;
+  min-height:600px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#nowhouse-page-banner #nowhouse-page .shade-box{
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+  float: right;
+ }
+
+/* CONTENT */
+.work_nowhouse .problem{
+  padding-top: 150px;
+}
+.work_nowhouse .nowhouse_content_one{
+  padding-bottom: 50px;
+}
+.nowhouse_content_two {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.nowhouse_content_two{
+ background: #83b13a;
+ color: white;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+/* toliet _gallery 1 */
+/* PHOTO GALLERY */
+.nowhouse_content_photo{
+  background: url(../images/nowhouse_banner-5.jpg)no-repeat center center;
+  min-height:200px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.nowhouse_content_photo1{
+  background: url(../images/nowhouse_banner-4.jpg)no-repeat center center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.nowhouse_content_three{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.nowhouse_content_four {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nowhouse_content_four ul{
+  padding-left: 0;
+}
+
+.nowhouse_content_five .award{
+  background: url(../images/nowhouse_banner_6.jpg)no-repeat top center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*********
+
+
+
+SICKKIDS _ ABOUT PAGE 
+
+
+
+
+ *********/
+#sickkids-page-banner{
+  background:url(../images/sickkids_banner.jpg)no-repeat center center;
+  min-height:600px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sickkids-page-banner #sickkids-page  .shade-box{
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+  float: right;
+
+ }
+/* CONTENT */
+.work_sickkids .problem{
+  padding-top: 150px;
+}
+.work_sickkids .sickkids_content_one{
+  padding-bottom: 50px;
+}
+.sickkids_content_two {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.sickkids_content_two{
+ background: #83b13a;
+ color: white;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+/* toliet _gallery 1 */
+/* PHOTO GALLERY */
+.sickkids_content_photo{
+  background: url(../images/sickkids_banner3.jpg)no-repeat center center;
+  min-height:200px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sickkids_content_photo1{
+  background: url(../images/sickkids_banner2.jpg)no-repeat center center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sickkids_content_three{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.sickkids_content_four {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sickkids_content_four ul{
+  padding-left: 0;
+}
+
+.sickkids_content_five .award{
+  background: url(../images/sickkids_banner4.jpg)no-repeat top center;;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*********
+
+
+
+TORONTO HYDRO _ ABOUT PAGE 
+
+
+
+
+ *********/
+#hydro-page-banner{
+  background:url(../images/hydro_banner.jpg)no-repeat center center;
+  min-height:600px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+#hydro-page-banner #hydro-page  .shade-box{
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+  float: right;
+
+ }
+
+/* CONTENT */
+.work_hydro .problem{
+  padding-top: 150px;
+}
+.work_hydro .hydro_content_one{
+  padding-bottom: 50px;
+}
+.hydro_content_two {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.hydro_content_two{
+ background: #13997b;
+ color: white;
+}
+
+/* toliet _gallery 1 */
+/* PHOTO GALLERY */
+.hydro_content_photo{
+  background: url(../images/hydro_banner3.jpg)no-repeat center center;
+  min-height:200px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hydro_content_photo1{
+  background: url(../images/hydro_banner2.jpg)no-repeat center center;
+  min-height:250px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hydro_content_three p{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.hydro_content_four {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.hdyro_content_four ul{
+  padding-left: 0;
+}
+
+.hydro_content_five .award{
+  background: url(../images/hydro_banner.jpg)no-repeat center center;;
+  margin-bottom: 0;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+

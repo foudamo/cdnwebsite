@@ -1,0 +1,228 @@
+#mobilmenu{
+	display: none;
+}
+
+/*********
+
+
+
+ Customized HOME PAGE 
+
+
+
+
+ *********/
+#home-head-banner #home .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  color:white;
+  position: absolute;
+  left: 100px;
+ }
+
+
+ /*********
+
+
+
+ Customized ABOUT PAGE 
+
+
+
+
+ *********/
+
+#about .shade-box-container {
+  width: 250px;
+}
+
+/* ABOUT US OFFERINGS */
+
+.ourofferings{
+  background-color: #F1F1F2;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.ourofferings ul{
+  padding-right: 20px;
+  padding-bottom: 25px;
+  width: 450px;
+  margin: 0 auto;
+}
+.ourofferings h4{
+  padding-bottom: 20px;
+ }
+
+ /* OUR APPROACH BANNER */
+ .our-approach{
+  height: 330px;
+ }
+ .our-approach h4{
+  position: absolute;
+  top:250px;
+ }
+
+/* OUR APPROACH CONTENT */
+.our-approach-content{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+/*********
+
+
+
+ Customized TEAM PAGE 
+
+
+
+
+ *********/
+
+/* team */
+ .team{
+  text-align: center;
+  padding-top: 180px;
+}
+
+
+
+/*********
+
+
+
+ Customized INDIVIDUAL BIO PAGE 
+
+
+
+
+ *********/
+
+.harry-bio{
+  background: #333333;
+  position: relative;
+  overflow: hidden;
+  height: 340px;
+}
+
+.harry-bio #bio_title{
+  padding-left: 15px;
+  position: absolute;
+  top: 160px;
+  left: 330px;
+}
+.harry-bio #bio_title h3{
+  margin-bottom: 0;
+}
+.harry-bio #bio_title h4{
+  margin-top: 0;
+}
+.harry-bio img{
+  width: 320px;
+  height: auto;
+}
+
+
+/*********
+
+
+
+ Customized WORK PAGE 
+
+
+
+
+ *********/
+/* SLIDER */
+
+ /* GAIA SLIDE */
+.gaia-boy #gaia_phone img{
+  position: absolute;
+  bottom: 26px;
+  width: 300px;
+  height: auto;
+ }
+
+ .gaia-boy #gaia_logo img{
+  position: absolute;
+  bottom: 130px;
+  left: 350px;
+  width: 200px;
+  height: auto;
+ }
+ .wood_banner img{
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+ }
+
+/* SICKKIDS */
+
+ #slide-sickkids h1{
+   width: 400px;
+ }
+
+ /* bangladesh */
+
+ #slide-bangladesh h1{
+  width: 400px;
+ }
+
+/* WORK-GALLERY */
+
+ .work-gallery li {
+  width: 33.3333333%; /* Fallback */
+  width: -webkit-calc(100% / 3);
+  width: calc(100% / 3);
+}
+
+.work-gallery li a div h3 {
+  font-size: 1.2em;
+}
+
+/* STORE */
+#store-head-banner ul{
+  position: relative;
+  top: 250px;
+  text-align: right;
+  padding-right: 30px;
+}
+#store-head-banner ul{
+  width: 600px;
+  float: right;
+}
+
+/*********
+
+
+
+NOWHOUSE _ ABOUT PAGE 
+
+
+
+
+ *********/
+
+.nowhouse_content_five .award{
+  background: url(../images/nowhouse_banner_6.jpg)no-repeat top center;
+  min-height:300px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*********
+
+
+
+sickids _ ABOUT PAGE 
+
+
+
+
+ *********/

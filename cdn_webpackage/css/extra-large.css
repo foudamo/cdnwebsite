@@ -1,0 +1,395 @@
+
+/**********
+
+
+
+Customized INDEX PAGE
+
+
+
+
+ **********/
+
+#home-head-banner #home .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+  border:10px solid black;
+  color:white;
+  left: 200px;
+  bottom: 200px;
+ }
+
+
+/* cdn-intro text */
+#cdn-intro-text{
+  color:#F1F1F2;
+  list-style-type: none;
+  width: 400px;
+}
+
+#cdn-bold-text{
+  line-height: 19px;
+}
+
+ /* Store Ad */
+.store-ad .container{
+  width:400px;
+  margin-right: 300px;
+}
+
+/**********
+
+
+
+Customized INDEX PAGE
+
+
+
+
+ **********/
+
+#team-head-banner #team .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+  border:10px solid black;
+  color:white;
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+  float: right;
+}
+
+/**********
+
+
+
+Customized TEAM PAGE
+
+
+
+
+ **********/
+#about-head-banner #about .shade-box{ 
+  background-color:rgba(35,31,32,.5);
+  height:200px;
+  width:200px;
+  border:10px solid black;
+  color:white;
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+  float: right;
+}
+
+/* TEAM BIO */
+
+
+.team{
+  padding-top: 190px;
+  padding-left: 0;
+  text-align: left;
+}
+.team ul{
+  padding-left: 0;
+}
+.head-heading ul{
+  width:360px;
+}
+.head-heading{
+  padding-bottom: 50px;
+}
+.head-heading h1{
+  width:400px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.head-heading p{
+  width: 500px;
+  padding-left: 0;
+}
+.team p{
+    padding-left: 0;
+}
+
+
+
+/*********
+
+
+
+ Customized WORK PAGE 
+
+
+
+
+ *********/
+/* SLIDER */
+
+ /* GAIA SLIDE */
+.gaia-boy #gaia_phone img{
+  position: absolute;
+  bottom: 58px;
+  width: 400px;
+  height: auto;
+ }
+
+ .gaia-boy #gaia_logo img{
+  position: absolute;
+  bottom: 300px;
+  left: 450px;
+  width: 200px;
+  height: auto;
+ }
+ .wood_banner img{
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+ }
+
+
+ #slide-gaia ul{
+  top: 210px;
+  right:60px;
+
+ }
+ #slide-gaia h1{
+    width: 450px;
+    font-size: 2.3em;
+}
+
+/* SICKKIDS */
+ #slide-sickkids ul{
+  top: 400px;
+  right: 60px;
+ }
+
+ #slide-sickkids h1{
+   width: 450px;
+  font-size: 2.3em;
+ }
+
+ /* bangladesh */
+#slide-bangladesh ul{
+  top: 400px;
+  right:60px;
+ }
+ #slide-bangladesh h1{
+  width: 450px;
+  font-size: 2.3em;
+ }
+
+/* WORK-GALLERY */
+
+ .work-gallery li {
+  width: 33.3333333%; /* Fallback */
+  width: -webkit-calc(100% / 3);
+  width: calc(100% / 3);
+}
+
+.work-gallery li a div h3 {
+  font-size: 1.5em;
+}
+
+/*********
+
+
+
+WORK _ TOLIET  ABOUT PAGE 
+
+
+
+
+ *********/
+
+/* toliet _gallery 1 */
+
+#sanitary-page-banner #sanitary-page .shade-box{
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+  float: right;
+ }
+
+/* PHOTO GALLERY */
+.toliet_content_photo{
+  background: url(../images/toliet_4.jpg)no-repeat center center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.toliet_content_photo1{
+  background: url(../images/toliet_3.jpg)no-repeat center center;
+  min-height:450px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*********
+
+
+
+WORK _ TOLIET  ABOUT PAGE 
+
+
+
+
+ *********/
+
+/* toliet _gallery 1 */
+#nowhouse-page-banner #nowhouse-page .shade-box{
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+  float: right;
+ }
+
+/* PHOTO GALLERY */
+.nowhouse_content_photo{
+  background: url(../images/nowhouse_banner-5.jpg)no-repeat center center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.nowhouse_content_photo1{
+  background: url(../images/nowhouse_banner-4.jpg)no-repeat center center;
+  min-height:450px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*********
+
+
+
+WORK _ TOLIET  ABOUT PAGE 
+
+
+
+
+ *********/
+
+/* toliet _gallery 1 */
+
+#sickkids-page-banner #sickkids-page .shade-box{
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+  float: right;
+ }
+/* PHOTO GALLERY */
+.sickkids_content_photo{
+  background: url(../images/nowhouse_banner-5.jpg)no-repeat center center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sickids_content_photo1{
+  background: url(../images/nowhouse_banner-4.jp)no-repeat center center;
+  min-height:450px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*********
+
+
+
+WORK _ HYDRO  ABOUT PAGE 
+
+
+
+
+ *********/
+
+/* toliet _gallery 1 */
+#hydro-page-banner #hydro-page .shade-box{
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+  float: right;
+ }
+/* PHOTO GALLERY */
+.hydro_content_photo{
+  background: url(../images/nowhouse_banner-5.jpg)no-repeat center center;
+  min-height:350px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hydro_content_photo1{
+  background: url(../images/nowhouse_banner-4.jpg)no-repeat center center;
+  min-height:450px;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/**********
+
+
+
+Customized STORE PAGE
+
+
+
+
+ **********/
+
+#store-head-banner ul{
+  position: relative;
+ top: 300px;
+  text-align: right;
+  padding: 0;
+}
+#store-head-banner h1 {
+  color: white;
+  font-size: 2.5em;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+}
+
+#store-head-banner p {
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 1.2em;
+
+}
+
+#store-head-banner p{
+  width: 470px;
+  float: right;
+}
+
+

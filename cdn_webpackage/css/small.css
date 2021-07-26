@@ -1,0 +1,39 @@
+/* Customized Index page */
+.nav{
+  display: none;
+}
+
+
+/*********
+
+
+
+ Customized INDIVIDUAL BIO PAGE 
+
+
+
+
+ *********/
+.harry-bio{
+  background: #333333;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+.harry-bio #bio_title{
+	padding-left: 15px;
+	position: absolute;
+	top: 90px;
+	left: 200px;
+}
+.harry-bio #bio_title h3{
+	margin-bottom: 0;
+}
+.harry-bio #bio_title h4{
+	margin-top: 0;
+}
+.harry-bio img{
+	width: 200px;
+	height: auto;
+}
