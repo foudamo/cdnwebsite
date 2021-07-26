@@ -96,6 +96,12 @@ ul, .list-inline{
 .nav .dropdown .subdrop-down li:hover{
   height: 40px;
 }
+
+
+.nav .dropdown:hover .subdrop-down{
+  display: block;
+}
+
 .nav .dropdown .subdrop-down li a:hover{
  color:#BBBDC0;
  font-weight: 400;
